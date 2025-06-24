@@ -2,7 +2,6 @@
 
 <p align="center">
   <b>A fun and classic word-guessing game built in Python</b><br>
-  👩‍💻 Internship Task for <a href="https://github.com/CodeAlphaTech">CodeAlpha</a> by <a href="https://github.com/ekataWorld">Ekata Patil</a>
 </p>
 
 ---
@@ -60,7 +59,3 @@ The game ends when you either guess the full word or run out of chances.
 
 Feel free to fork the repo, make improvements, and open a pull request! Suggestions and improvements are always welcome.
 
-## 👩‍💻 Author
-
-Made with ❤️ by Ekata Patil
-📌 CodeAlpha Internship | Task 1
