@@ -1,39 +1,66 @@
+<h1 align="center">🎮 Hangman Game in Python 🐍</h1>
 
-##📝 Project Name:
+<p align="center">
+  <b>A fun and classic word-guessing game built in Python</b><br>
+  👩‍💻 Internship Task for <a href="https://github.com/CodeAlphaTech">CodeAlpha</a> by <a href="https://github.com/ekataWorld">Ekata Patil</a>
+</p>
 
-Hangman Word Guessing Game using Python
+---
 
-##📌 Project Overview:
+## 🧠 About the Game
 
-The Hangman Word Guessing Game is a text-based word puzzle game developed in Python. It allows the user to guess a hidden word by entering one letter at a time. This project demonstrates fundamental programming concepts and logic-building skills in Python while offering an interactive and fun gameplay experience.
-The game randomly selects a word from a predefined list. The user must guess the word within a limited number of incorrect attempts (6). If the player guesses all the correct letters before the maximum attempts are reached, they win the game.
+**Hangman** is a classic word game where your mission is to guess the hidden word, one letter at a time. Be careful — every wrong guess brings you closer to the hangman!
 
-##🎮 Game Concept:
+This project is written in **pure Python**, designed to run in your terminal/command prompt, and perfect for beginners learning Python basics like strings, loops, and conditions.
 
-The concept is based on the traditional Hangman game. A word is chosen secretly, and the player must figure out the word by guessing its letters. For each wrong guess, a life is lost. The player either wins by guessing all letters or loses by exhausting all attempts.
+---
 
-Game Rules:
+## 🚀 Features
 
-- The player can guess one letter at a time.
-- If the letter exists in the word, it is revealed.
-- If not, one incorrect guess is counted.
-- The player has 6 incorrect guesses total.
-- Game ends with either a win or a loss.
+✅ Random word selection  
+✅ Tracks correct & wrong guesses  
+✅ Shows word progress after every guess  
+✅ Limited attempts – win or lose!  
+✅ Beginner-friendly codebase  
 
-##💻 Tools and Technologies Used:
+---
 
-Programming Language: Python
-Editor Used: VS Code / PyCharm / IDLE
-Libraries Used: random (to select a word randomly)
+## 🖥️ Demo Preview
 
-**##🌟 Features:**
+Welcome to Hangman!
+Guess the word, one letter at a time.
+You have 6 incorrect guesses.
 
-- Easy to play text-based game.
-- User input is validated.
-- Keeps track of correct and wrong guesses.
-- Friendly messages and game result display.
-  
-##✅ Conclusion:
+Word: _ _ _ _ _
+Incorrect guesses left: 6
+Enter a letter: a
+Good guess!
 
-This Hangman game project helped in understanding how to write and structure a Python program. It uses basic programming logic and helps beginners improve their skills while making a fun game. It can be further expanded into a full application in the future.
+Word: a _ _ _ _
+Incorrect guesses left: 6
+Enter a letter: z
+Wrong guess!
 
+...
+Congratulations! You guessed the word: apple
+
+## ▶️ Run the Game
+
+python Hangman_Game.py
+💡 Make sure Python 3 is installed on your system!
+
+## 🎯 Game Rules
+
+A word is selected at random.
+You have a limited number of chances to guess the letters of the word.
+For each wrong guess, you lose one chance.
+The game ends when you either guess the full word or run out of chances.
+
+## 🤝 Contributing
+
+Feel free to fork the repo, make improvements, and open a pull request! Suggestions and improvements are always welcome.
+
+## 👩‍💻 Author
+
+Made with ❤️ by Ekata Patil
+📌 CodeAlpha Internship | Task 1
